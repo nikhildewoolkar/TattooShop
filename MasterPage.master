@@ -1,0 +1,189 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="OtherMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Shiva's Tatoo Studio</title>
+<!-- custom-theme -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Tattooist Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //custom-theme -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/zoomslider.css" />
+<link href="css/team.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/ziehharmonika.css" rel="stylesheet" type="text/css">
+<link href="css/wimmViewer.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+<link href="//fonts.googleapis.com/css?family=UnifrakturMaguntia" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<link href="//fonts.googleapis.com/css?family=Lora:400,400i" rel="stylesheet">
+    
+</head>
+<body style="background-color:aqua">
+
+					
+					
+    		<nav class="menu menu--sebastian">
+
+									<ul id="m_nav_list" class="m_nav menu__list" style="background-image:url(images/navbar.jpg);height:150px">
+				<li class="m_nav_item" id="Li1"> ><span data-letters="Home" style="background-color:aqua;color:purple;font-size:40px"><b><i>Shiva's Tatooist</i></b></span></li>
+                                        <li class="m_nav_item" id="moble_nav_item_1"> <a href="index.aspx" class="link link--kumya" ><span data-letters="Home" style="background-color:purple;color:aqua;font-size:medium">Home</span></a></li>
+                                        <li class="m_nav_item" id="moble_nav_item_3"> <a href="aboutus.aspx" class="link link--kumya scroll"><span data-letters="About Us" style="background-color:purple;color:aqua;font-size:medium">About Us</span></a></li>
+										<li class="m_nav_item" id="moble_nav_item_2"> <a href="services.aspx" class="link link--kumya scroll"><span data-letters="services" style="background-color:purple;color:aqua;font-size:medium">Services</span></a></li>										
+                                        
+										<li class="m_nav_item" id="moble_nav_item_4"> <a href="Artists.aspx" class="link link--kumya scroll"><span data-letters="Artists" style="background-color:purple;color:aqua;font-size:medium">Artists</span></a></li>
+                                        <li class="m_nav_item" id="moble_nav_item_7"> <a href="bookappointment.aspx" class="link link--kumya"><span data-letters="Registration" style="background-color:purple;color:aqua;font-size:medium">Book Appointment</span></a></li>
+                                        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+										<li class="m_nav_item" id="moble_nav_item_6"> <a href="testimonials.aspx" class="link link--kumya scroll"><span data-letters="Testimonials" style="background-color:purple;color:aqua;font-size:small">Testimonials</span></a></li>
+                                        <li class="m_nav_item" id="Li2"> <a href="feedback.aspx" class="link link--kumya scroll"><span data-letters="Feedback" style="background-color:purple;color:aqua;font-size:small">Feedback</span></a></li>
+                                        <li class="m_nav_item" id="Li3"> <a href="contact.aspx" class="link link--kumya scroll"><span data-letters="Contact Us" style="background-color:purple;color:aqua;font-size:small">Contact Us</span></a></li>
+                                        <li class="m_nav_item" id="moble_nav_item_5"> <a href="login.aspx" class="link link--kumya scroll"><span data-letters="Gallery" style="background-color:purple;color:aqua;font-size:small">Admin Login</span></a></li>
+                                        
+										
+									  </ul>
+								</nav>
+							<%--</div>
+						</div>
+					</div>--%>
+<form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+                   <br />
+            <br /><br />
+            <br />
+    <!--footer-->
+<div class="agile-footer jarallax">
+<div class="agile_overlay1">
+         
+		<div class="container">
+		      <div class="cam"><a href="index.html"><span>T</span>attooist</a></div>
+
+			<div class="w3_agileits_social_media">
+					<ul class="agileits_social_list footer_icons_w3l">
+								<li><a href="#" class="w3_agile_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="agile_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+								<li><a href="#" class="w3_agile_rss"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+							</ul>
+				</div>
+
+			<div class="copy-right">
+				<p> Tattooist. Design by Shubham Mhatre</p>
+			</div>
+		</div>
+	</div>
+</div>
+	<!-- //footer -->
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+	<!-- js -->
+<script src="js/jquery-2.1.4.min.js"></script> 
+<script type="text/javascript" src="js/modernizr-2.6.2.min.js"></script>
+<script type="text/javascript" src="js/jquery.zoomslider.min.js"></script>
+<!-- menu -->
+	<script type="text/javascript" src="js/main.js"></script>
+<!-- //menu -->
+
+			<script src="js/jarallax.js"></script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script type="text/javascript">
+	    /* init Jarallax */
+	    $('.jarallax').jarallax({
+	        speed: 0.5,
+	        imgWidth: 1366,
+	        imgHeight: 768
+	    })
+	</script>
+
+<script src="js/ziehharmonika.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.ziehharmonika').ziehharmonika({
+            collapsible: true,
+            prefix: ''
+        });
+    });
+</script>
+<script src="js/wimmViewer.js"></script>
+<script>
+    $(function () {
+        $('#slider1').WimmViewer({
+            miniatureWidth: 100,
+            miniatureHeight: 100
+            // Availables customizations:
+            /*
+            miniatureSpace: 10,
+            nextText:'Next',
+            prevText:'Prev',
+            onImgChange : function() { console.log('changed'); },
+            onNext : function() { console.log('next'); },
+            onPrev : function() { console.log('previous'); },
+            */
+        });
+    })
+</script>
+<!-- start-smoth-scrolling -->
+<script src="js/jqBootstrapValidation.js"></script>
+<script src="js/contact_me.js"></script>
+<!-- //for bootstrap working -->
+<!-- stats -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/jquery.countup.js"></script>
+		<script>
+		    $('.counter').countUp();
+		</script>
+<!-- //stats -->
+<!-- start-smooth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+        });
+    });
+</script>
+<!-- start-smooth-scrolling -->
+<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+					    jQuery(function ($) {
+					        $(".swipebox").swipebox();
+					    });
+					</script>
+
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+	    $(document).ready(function () {
+	        /*
+	        var defaults = {
+	        containerID: 'toTop', // fading element id
+	        containerHoverID: 'toTopHover', // fading element hover id
+	        scrollSpeed: 1200,
+	        easingType: 'linear' 
+	        };
+	        */
+
+	        $().UItoTop({ easingType: 'easeOutQuart' });
+
+	    });
+	</script>
+<!-- //here ends scrolling icon -->
+
+<script type="text/javascript" src="js/bootstrap-3.1.1.min.js"></script>
+
+</body>
+</html>
